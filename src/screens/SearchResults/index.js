@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Dimensions, SafeAreaView} from 'react-native';
 
-import HomeMap from '../../components/HomeMap';
+import RouteMap from '../../components/RouteMap';
 import UberTypes from '../../components/UberTypes';
 
 const SearchResults = () => {
@@ -9,7 +9,7 @@ const SearchResults = () => {
     <SafeAreaView>
       <View style={{display: 'flex', justifyContent: 'space-between'}}>
         <View style={{height: Dimensions.get('window').height - 410}}>
-          <HomeMap />
+          <RouteMap />
         </View>
         <View style={{height: 390}}>
           <UberTypes />
