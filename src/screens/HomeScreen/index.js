@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {Dimensions, View} from 'react-native';
 
 import HomeMap from '../../components/HomeMap';
 import CovidMessage from '../../components/CovidMessage';
@@ -8,7 +8,9 @@ import HomeSearch from '../../components/HomeSearch';
 const HomeScreen = () => {
   return (
     <View>
-      <HomeMap />
+      <View style={{height: Dimensions.get('window').height - 400}}>
+        <HomeMap />
+      </View>
       <CovidMessage />
       <HomeSearch />
     </View>
@@ -16,5 +18,3 @@ const HomeScreen = () => {
 };
 
 export default HomeScreen;
-
-const styles = StyleSheet.create({});

@@ -16,9 +16,12 @@ import SearchResults from './src/screens/SearchResults';
 const App: () => React$Node = () => {
   return (
     <>
-      {/*       <StatusBar barStyle="dark-content" />
-      <HomeScreen /> 
-      <DestinationSearch />*/}
+      <StatusBar barStyle="dark-content" />
+      {/*       
+      <HomeScreen />
+        
+      <DestinationSearch />
+      */}
       <SearchResults />
     </>
   );

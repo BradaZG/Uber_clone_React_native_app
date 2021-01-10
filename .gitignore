@@ -59,4 +59,6 @@ buck-out/
 /ios/Pods/
 
 .env
-android\app\debug.keystore
+/android/app/src/main/AndroidManifest.xml
+/android/app/debug.keystore
+/ios/react_native_uber_clone/AppDelegate.m
